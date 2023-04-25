@@ -1,8 +1,10 @@
 git_add.sh
 git_add.txt
+message.txt
 rm.sh
 rm.txt
-tmp.sh
-message.txt
 shrc_activate.sh
 shrc_install.sh
+tmp.sh
+automatic1111/
+stable-diffusion-webui

@@ -15,12 +15,12 @@ https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/m
 
 ** Create env:
 #+begin_src sh :shebang #!/bin/sh :results output :tangle ./shrc_install.sh
-  conda create -n myenv
+  conda create -n sdui
 #+end_src
 
 ** Activate env:
 #+begin_src sh :shebang #!/bin/sh :results output :tangle ./shrc_install.sh
-  conda activate myenv
+  conda activate sdui
 #+end_src
 
 ** Install basic stuff:
@@ -28,6 +28,7 @@ https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/m
   conda install \
       cython \
       ipython \
+      jinja2 \
       jupyter \
       jupyterlab \
       matplotlib \
@@ -35,13 +36,13 @@ https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/m
       numpy \
       opencv \
       pandas \
-      python=3.9 \
+      pyqt \
+      python=3.10 \
+      scikit-image \
       scikit-learn \
       scikit-learn-intelex \
       scipy \
       tqdm \
-      pyqt \
-      jinja2 \
   ;
 #+end_src
 
@@ -96,5 +97,10 @@ https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/m
 ** Activate ENV:
 #+begin_src sh :shebang #!/bin/sh :results output :tangle ./shrc_activate.sh
   . /opt/anaconda/bin/activate
-  conda activate myenv
+  conda activate sdui
+#+end_src
+
+** Clone the repo:
+#+begin_src sh :shebang #!/bin/sh :tangle ./shrc_install.sh
+  git clone 'https://github.com/AUTOMATIC1111/stable-diffusion-webui'
 #+end_src
