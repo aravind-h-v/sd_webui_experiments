@@ -3,6 +3,21 @@ Random stuff accumulated here. Also has python env setup.
 
 * Important links:
 
+** Image upscaling:
+https://github.com/Coyote-A/ultimate-upscale-for-automatic1111
+
+** Find better images:
+https://github.com/Kahsolt/stable-diffusion-webui-sonar
+
+** Selective upscaling:
+https://github.com/hnmr293/sd-webui-llul
+
+** Mixing diffusers:
+https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111
+
+** Multi Diffusion:
+https://github.com/omerbt/MultiDiffusion
+
 ** Colab notebook for automatic1111 SD web UI:
 https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast_stable_diffusion_AUTOMATIC1111.ipynb
 

@@ -4,7 +4,7 @@
 
 *** The commit message:
 #+begin_src conf :tangle message.txt
-  Simple updates.
+  Added some interesting links
 #+end_src
 
 *** Files to add:
